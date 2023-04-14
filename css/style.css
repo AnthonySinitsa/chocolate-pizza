@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 3%;
+}
+
+h2 {
+  margin-top: auto;
+  font-size: 3rem;
+} 
+
+.imageContainer {
+  background-image: url('hr-img.png');
+  background-repeat: repeat-x;
+  background-position: right top;
+}
+
+div ul {
+  list-style-type: none;
+  display:flex;
+  flex-direction: row;
+  float: right;
+  padding-top: 30px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  width: 900px;
+  margin: auto;
+}
+
+/* .text p {
+  position: relative;
+} */
+
+.printer img {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.printer p {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+  text-align: right;
+  font-size: small;
+}
+
+div h1 {
+  font-size: 2rem;
+}
+div p {
+  font-size: .7rem;
+}
